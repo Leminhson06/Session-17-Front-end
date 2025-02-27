@@ -1,0 +1,10 @@
+let r = +prompt("Nhap ban kinh hinh tru: ");
+let h = +prompt("Nhap chieu cao hinh tru: ");
+let area = Math.PI * 2 * r * h;
+let areaAll = 2 * Math.PI * r * h + 2 * Math.PI * r * r;
+let volumne = Math.PI * r * r * h;
+let circular = 2 * Math.PI * r;
+document.write(`Dien tich xung quanh hinh tru la: ${area}<br>`);
+document.write(`Dien tich toan phan hinh tru la: ${areaAll}<br>`);
+document.write(`The tich hinh tru la: ${volumne}<br>`);
+document.write(`Chu vi hinh tron la: ${circular}`);
